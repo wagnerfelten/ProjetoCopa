@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  background: linear-gradient(150deg, #0F2B05, #000000)no-repeat;
+  height: 100vh;
+}
+
+.logo-container{
+  border: 1px solid red;
+}
+
+.logo{
+  text-align: center;
+  margin-top: 75px;
+}
+
