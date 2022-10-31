@@ -4,11 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../src/style/style.css" />
-    <link
-      rel="shortcut icon"
-      href="favicon.ico"
-      type="../public/images/copa-do-mundo.png"
-    />
     <title>Copa do Mundo</title>
   </head>
   <body>
@@ -18,19 +13,22 @@
       </div>
     </header>
 
-    <main class="main-container">
-      <section class="card">
+    <main class="main-container" ondblclick="dobleCard(event)">
+      <section class="card" id="card">
+       
         <div class="card-avatar">
           <img
             src="https://avatars.githubusercontent.com/u/69311486?v=4"
             alt="Image-card"
           />
         </div>
-        <div class="info">
+        <div class="info" >
           <h1>Wagner Rodrigues</h1>
-          <p>Estudando de Frontend</p>
+          <p>Estudante de Frontend</p>
         </div>
       </section>
     </main>
+
+    <script src="../src/js/changeCard.js"></script>
   </body>
 </html>
